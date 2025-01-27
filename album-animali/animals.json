@@ -1,0 +1,29 @@
+
+{
+    "animals": [
+    {   
+        "id_figurina": "1",
+        "razza_animale": "labrador",
+        "specie_animale": "cane",
+        "area_provenienza": "russia",
+        "rischio_estinzione": false,
+        "foto": "https://i.imgur.com/ub9uK8u.png"
+    },
+    {   
+        "id_figurina": "2",
+        "razza_animale": "lupastro",
+        "specie_animale": "gatto",
+        "area_provenienza": "italia",
+        "rischio_estinzione": false,
+        "foto": "https://i.imgur.com/ub9uK8u.png"
+    },
+    {   
+        "id_figurina": "3",
+        "razza_animale": "carino",
+        "specie_animale": "panda",
+        "area_provenienza": "america",
+        "rischio_estinzione": true,
+        "foto": "https://i.imgur.com/ub9uK8u.png"
+    }
+    ]
+}
