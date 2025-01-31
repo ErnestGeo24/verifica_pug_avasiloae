@@ -5,13 +5,11 @@ app.set('view engine', 'pug');
 app.use(express.static(__dirname + '/public')); 
 
 app.get('/', function (req, res) {
-
+ res.send("ciao");
 });
 
 app.get('/api/albumAnimali', (req, res) => {
-    res.render('index', {
-        animale: animale.animals
-    });
+    res.send(animale);
 });
 
 
