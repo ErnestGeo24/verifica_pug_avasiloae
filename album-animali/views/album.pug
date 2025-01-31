@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title Dettagli Animale
+    link(rel="stylesheet", href="/css/style.css")
+  body
+    header
+      h1 #{animal.razza_animale}
+      nav
+        a(href="/") Torna all'album
+    main
+      img(src=animal.foto, alt=animal.razza_animale)
+      p
+        strong Specie:
+        | #{animal.specie_animale}
+      p
+        strong Area di provenienza:
+        | #{animal.area_provenienza}
+      p
+        strong Rischio estinzione:
+        | #{animal.rischio_estinzione ? "Sì" : "No"}

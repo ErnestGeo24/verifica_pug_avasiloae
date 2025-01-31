@@ -1,1 +1,13 @@
-p #{animale}
+doctype html
+html
+  head
+    title Album Animali
+    link(rel="stylesheet", href="/css/style.css")
+  body
+    header
+      h1 Album Animali
+    main
+      ul
+        each animal in animale
+          li
+            a(href=`/album/${animal.id_figurina}`) #{animal.razza_animale}
